@@ -1,23 +1,27 @@
-
-
 /* import fonts from fonts css file */
 @import url(/fonts/css);
-html,body {
-margin: 0;
-box-sizing: border-box;
-width: 100%;
-height: 100%;
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
+
 :root {
- --purple:  #5f45ea;
- --mulish:  'Mulish', sans-serif;
-
+  --purple: #5f45ea;
+  --mulish: 'Mulish', sans-serif;
 }
 
+.color-purple {
+  color: var(--purpl);
+}
 
 .logo {
-    width: 7rem;
+  width: 7rem;
 }
+
 .header .header-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;
 }
@@ -25,33 +29,48 @@ height: 100%;
 .header .header-menu .navbar {
   padding: 1rem 1rem;
 }
+
 .header .header-menu .navbar-nav .nav-link {
-    font: normal 600 13px/2px var(--mulish);
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color:black;
+  font: normal 600 13px/2px var(--mulish);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: black;
 }
-.header .header-menu .navbar-nav  a:hover {
- color: var(--purple);
+
+.header .header-menu .navbar-nav a:hover {
+  color: var(--purple);
 }
 
 .main .banner .banner-title h3 {
-    padding-top: 20%;
-    font-weight: 600;
-    font-size: 5rem; 
+  padding-top: 20%;
+  font-weight: 600;
+  font-size: 5rem;
 }
+
 .main .banner .banner-title .banner-img > img {
-    padding: 7rem 0;
-    width: 120rem;
+  padding: 7rem 0;
+  width: 120rem;
 }
+
 .title-text {
- font:normal bold 35px/55px var(--mulish)
+  font: normal bold 35px/55px var(--mulish);
 }
+
 .button {
   padding: 2rem 2.2rem;
-  font:normal 500 16px/20px var(--mulish);
+  font: normal 500 16px/20px var(--mulish);
   position: relative;
   border: 3px solid transparent;
-   border-radius: 4px;
-   background: var(--purple);
+  border-radius: 4px;
+  background: var(--purple);
+}
+
+.portfolio-containte {
+  background: #ebebeb;
+}
+
+.project-title {
+  font: normal 600 25px/19px var(--mulish);
+  color: var(--purple);
+  margin-bottom: 2%;
 }
