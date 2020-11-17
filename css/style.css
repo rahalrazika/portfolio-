@@ -74,27 +74,30 @@ body {
   color: var(--purple);
   margin-bottom: 2%;
 }
+
 .lang-icon {
   width: 50%;
   height: 50%;
 }
-.pojects-img  {
 
+.pojects-img {
   max-width: 32rem;
   max-height: 19rem;
 }
+
 footer .footer-area {
   padding: 5rem 0;
 }
-footer .footer-area .footer-links h5{
-  
-   font: normal 700 23px/30px var(--mulish)
 
+footer .footer-area .footer-links h5 {
+  font: normal 700 23px/30px var(--mulish);
 }
+
 .fa {
   padding: 1rem;
   color: var(--purple);
 }
+
 .fa:hover {
   color: wheat;
 }
