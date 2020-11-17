@@ -74,3 +74,10 @@ body {
   color: var(--purple);
   margin-bottom: 2%;
 }
+.lang-icon {
+  width: 50%;
+  height: 50%;
+}
+.about-text {
+  margin-left: 10rem;
+}
