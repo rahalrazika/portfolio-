@@ -13,7 +13,9 @@ This is my first portfolio
 
 ## Getting Started
 
-**To view this project, download the contents of the repository to your computer or clone the repository and open the index.html file using your preferred browser.**
+**To view this project:**
+- download the contents of the repository to your computer or clone the repository 
+- open the index.html file using your preferred browser.
 
 ## Author 
 
