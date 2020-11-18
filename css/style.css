@@ -101,3 +101,9 @@ footer .footer-area .footer-links h5 {
 .fa:hover {
   color: wheat;
 }
+@media (max-width: 595px) {
+  .lang-icon {
+  width: 33%;
+  height: 50%;
+}
+}
