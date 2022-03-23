@@ -13,27 +13,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;1,200;1,500&display=swap" rel="stylesheet">  </head>
 <body>
 <!-- header -->
    <header class="header">
     <div class="header-menu">
-        <nav class="navbar navbar-expand-lg navbar">
-            <a class="navbar-brand" href="index.html"><img class="logo mb-2" src="/img/logo.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="mr-auto"> </div>
-                  <div class="navbar-nav">
-                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#about">About</a>
-                    <a class="nav-link" href="#pojects">portfolio</a>
-                    <a class="nav-link" href="#contact">contact</a>
-                  
-                </div>
-            </div>
-          </nav>
+      <nav class="nav container-lg">
+        <a href="index.html"><img class="logo" src="/img/logo.png" alt="logo"></a>
+        <div class="nav-btn">
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+        <div class="nav_menu" id="navbarNavAltMarkup">
+                  <ul class="nav_list">
+                    <li class="nav_item">
+                      <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav_item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav_item">
+                      <a class="nav-link" href="#pojects">portfolio</a>
+                    </li>
+                    <li class="nav_item">
+                      <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+        </div>
+          
+      </nav>
+      
     </div>
    </header>
 <!--  end  header -->
@@ -60,7 +71,6 @@
       </div>
       <div class="col-lg-6 col-md-12 banner-img">
         <img src="/img/banner.png" alt="banner" class="img-fluid">
-      </div>
 
     </div>
   </div>
@@ -99,15 +109,15 @@
     <div class="col-xl-6 col-lg-6 col-md-6 m-0 text-center shadow-lg p-3 mb-5 bg-white rounded">
       <div class="col-sm bg-white p-3 mb-5">
         <div class="pojects-img "> 
-         <img src="/img/projects/twitter.png" alt="" class="img-fluid">
+         <img src="/img/projects/loop.png" alt="" class="img-fluid">
         </div>
-        <h3 class="project-title">Twittter</h3>
+        <h3 class="project-title">LOOP</h3>
         <div class="project-text mb-3 mt-3">
-          <p>A Twitter clone app made with Ruby on rails Bulma and scss. </p>
-         <span class= "bg-light"> Ruby On Rails </span> <span class= "bg-light">Bulma</span>  <span class= "bg-light">Scss</span>
+          <p>LOOP app, it’s a network where clients can meet with developers and schedule a zoom meeting. To exchange work experience and knowledge. Build with React and Rails API </p>
+         <span class= "bg-light"> Ruby On Rails API </span> <span class= "bg-light">REACT</span>  <span class= "bg-light">REDUX</span>
         </div>
-        <a target="_blank" class="btn btn-primary" href="https://ancient-crag-79846.herokuapp.com/"> Live demo</a>
-        <a target="_blank" class="btn btn-primary" href="https://github.com/rahalrazika/Twitter-Clone"> Github</a>
+        <a target="_blank" class="btn btn-primary" href="loopnnew--app.herokuapp.com/"> Live demo</a>
+        <a target="_blank" class="btn btn-primary" href="https://github.com/rahalrazika/rails-react-capstone"> Github</a>
       </div>
     </div>
   
@@ -117,60 +127,23 @@
      <div class="col-xl-6 col-lg-6 col-md-6 m-0  text-center shadow-lg p-3 mb-5 bg-white rounded">
       <div class="col-sm bg-white p-3 mb-5">
         <div class="pojects-img "> 
-         <img src="/img/projects/telegram.png" alt="" class="img-fluid ">
+         <img src="/img/projects/zstore.png" alt="" class="img-fluid ">
         </div>
-        <h3 class="project-title">Telegram-bot</h3>
+        <h3 class="project-title">zstore</h3>
         <div class="project-text mb-3 mt-3">
-          <p>Translator bot to translate from English to French, built with Ruby and Rspec.</p>
-          <span class= "bg-light"> Ruby Rspec</span>
+          <p>This project consisted of building a Store app using React JavaScript library.</p>
+          <span class= "bg-light">REACT</span>  <span class= "bg-light">REDUX</span>
          </div>
-        <a target="_blank" class="btn btn-primary" href="https://repl.it/@RazikaRahal/telegramebot#README.md"> Live demo</a>
-        <a target="_blank" class="btn btn-primary" href="https://github.com/rahalrazika/telegramebot"> Github</a>
+        <a target="_blank" class="btn btn-primary" href="https://raza-store.herokuapp.com/"> Live demo</a>
+        <a target="_blank" class="btn btn-primary" href="https://github.com/rahalrazika/React-capstone"> Github</a>
       </div>
     </div>
   
     <!-- end project section -->
-
-
-       <!-- project section -->
-       <div class="col-xl-6 col-lg-6 col-md-6 m-0  text-center shadow-lg p-3 mb-5 bg-white rounded">
-        <div class="col-sm bg-white p-3 mb-5">
-          <div class="pojects-img "> 
-           <img src="/img/projects/shop.png" alt="" class="img-fluid">
-          </div>
-          <h3 class="project-title">Kawai shop</h3>
-          <div class="project-text mb-3 mt-3">
-            <p>Kawai shop is an e-commerce website build with HTML CSS and bootstrap.</p>
-            <span class= "bg-light"> HTML</span> <span class="bg-light">CSS</span>  <span class= "bg-light">Boostrap</span>
-           </div>
-          <a target="_blank" class="btn btn-primary" href="https://rawcdn.githack.com/rahalrazika/online-shop/53e18ccb4df4c1399764fd16edf60d3b355ac6e8/index.html"> Live demo</a>
-          <a target="_blank" class="btn btn-primary" href="https://github.com/rahalrazika/online-shop"> Github</a>
-        </div>
-      </div>
-    
-      <!-- end project section -->
-
-           <!-- project section -->
-           <div class="col-xl-6 col-lg-6 col-md-6 m-0 text-center shadow-lg p-3 mb-5 bg-white rounded">
-            <div class="col-sm bg-white p-3 mb-5">
-              <div class="pojects-img "> 
-               <img src="/img/projects/newsweek.png" alt="" class="img-fluid">
-              </div>
-              <h3 class="project-title">NewsWeek</h3>
-              <div class="project-text mb-3 mt-3">
-                <p>A replica of the Newsweek Main Page This project consists of building a responsive clone of the Newsweek web site using bootstrap.</p>
-                <span class= "bg-light"> HTML</span> <span class="bg-light">CSS</span>  <span class= "bg-light">Boostrap</span>
-               </div>
-              <a target="_blank" class="btn btn-primary" href="https://rawcdn.githack.com/nusretbutunay/newsweek_replica/dbf5f2d367e0c51b7c7a47d16869775b022aad32/index.html"> Live demo</a>
-              <a target="_blank" class="btn btn-primary" href="https://github.com/nusretbutunay/newsweek_replica"> Github</a>
-            </div>
-          </div>
-        
-          <!-- end project section -->
 </div>
 </div>
 </section>
-<!--  end Pojects container-->
+<!--  end Projects container-->
 
 <!-- start about me  -->
 <section class="about-me mt-5" >
@@ -209,11 +182,9 @@
        
              <div class="col-lg-3 col-md-3 col-sm-3">
                <div class="single-lang text-center">
-                  <img src="/img/lang/js.png" alt="lang-3" class="lang-icon image-fluid">
+                  <img src="/img/lang/react.svg" alt="lang-3" class="lang-icon image-fluid">
                  </div>
               </div>
-
-          </div>
          
           <br>
        <h2 class="h1">Frameworks :</h2>
@@ -271,6 +242,9 @@
     </div>
   </div>
 </footer>
+<!-- js  file -->
+<script src="/js/main.js"></script>
+
 <!-- jquery  file -->
 <script src="/js/jquery.3.5.1.js"></script>
 

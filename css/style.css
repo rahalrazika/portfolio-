@@ -1,17 +1,37 @@
 /* import fonts from fonts css file */
 @import url(/fonts/css);
-
+:root {
+  --purple: #5f45ea;
+  --mulish: "Mulish", sans-serif;
+}
 html,
 body {
   margin: 0;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
+  border: 1px solid green;
 }
 
-:root {
-  --purple: #5f45ea;
-  --mulish: 'Mulish', sans-serif;
+li {
+  list-style-type: none;
+}
+
+.header-menu {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.nav_list {
+  display: flex;
+}
+.nav-btn {
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .color-purple {
@@ -20,6 +40,7 @@ body {
 
 .logo {
   width: 7rem;
+  margin-bottom: 2rem;
 }
 
 .header .header-menu .navbar .navbar-brand {
@@ -30,14 +51,14 @@ body {
   padding: 1rem 1rem;
 }
 
-.header .header-menu .navbar-nav .nav-link {
+.header .header-menu .nav_list .nav-link {
   font: normal 600 13px/2px var(--mulish);
   text-transform: uppercase;
   padding: 1.7rem;
   color: black;
 }
 
-.header .header-menu .navbar-nav a:hover {
+.header .header-menu .nav_list a:hover {
   color: var(--purple);
 }
 
@@ -46,7 +67,6 @@ body {
   font-weight: 600;
   font-size: 5rem;
 }
-
 .main .banner .banner-title .banner-img > img {
   padding: 7rem 0;
   width: 120rem;
@@ -101,9 +121,39 @@ footer .footer-area .footer-links h5 {
 .fa:hover {
   color: wheat;
 }
-@media (max-width: 595px) {
+
+@media (max-width: 716px) {
   .lang-icon {
-  width: 33%;
-  height: 50%;
-}
+    width: 33%;
+    height: 50%;
+  }
+  .nav_menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav-btn {
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .nav-btn:hover {
+    
+
+  }
+  .nav_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .nav_item:hover {
+   color: #5f45ea;
+   
+  }
+  
+  .show-menu {
+    display: flex;
+  }
 }
