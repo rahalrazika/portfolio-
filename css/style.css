@@ -122,7 +122,49 @@ footer .footer-area .footer-links h5 {
   color: wheat;
 }
 
+h1 {
+  font-size: 68px;
+  color: #747474;
+}
+  span.text {
+    padding: 0;
+    padding-right: 4px;
+    border-right: 2px solid #747474;
+    animation: blink 0.75s infinite;
+  }
+
+  .blue {
+    color: #18243d;
+  }
+  .green {
+    color: #014237;
+  }
+  .purple {
+    color: #700a70;
+  }
+  
+.title {
+  text-align: center;
+  font: normal  var(--mulish);
+  font-size: 2rem;
+}
+.first-text {
+  text-align: center;
+}
+.buttons-links {
+  font-size: 2rem;
+  justify-content: center;
+}
+.buttons-second-links {
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
 @media (max-width: 716px) {
+  .first-text{
+    font-size: 1.5rem;
+    text-align:center ;
+}
   .lang-icon {
     width: 33%;
     height: 50%;
@@ -138,10 +180,8 @@ footer .footer-area .footer-links h5 {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-  .nav-btn:hover {
     
 
-  }
   .nav_list {
     display: flex;
     flex-direction: column;
