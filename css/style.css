@@ -11,12 +11,25 @@ body {
   width: 100%;
   height: 100%;
   border: 1px solid green;
+  background-color: white;
 }
 
 li {
   list-style-type: none;
 }
-
+.header {
+}
+#divider {
+  height: 12px;
+  margin-bottom: 52px;
+  width: 80%;
+  background: linear-gradient(
+    37deg,
+    rgb(219, 116, 116),
+    hsl(310, 56%, 37%),
+    hsl(0deg 0% 100%)
+  );
+}
 .header-menu {
   width: 90vw;
   margin: 0 auto;
@@ -85,16 +98,21 @@ nav {
   background: var(--purple);
 }
 
+
 .portfolio-containte {
-  background: #ebebeb;
+  background: white;
 }
 
 .project-title {
-  font: normal 600 25px/19px var(--mulish);
-  color: var(--purple);
-  margin-bottom: 2%;
+  font: normal 600  var(--mulish);
+  color: black;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 8%;
 }
-
+.project-color {
+  color: var(--purple);
+}
 .lang-icon {
   width: 50%;
   height: 50%;
@@ -126,26 +144,26 @@ h1 {
   font-size: 68px;
   color: #747474;
 }
-  span.text {
-    padding: 0;
-    padding-right: 4px;
-    border-right: 2px solid #747474;
-    animation: blink 0.75s infinite;
-  }
+span.text {
+  padding: 0;
+  padding-right: 4px;
+  border-right: 2px solid #747474;
+  animation: blink 0.75s infinite;
+}
 
-  .blue {
-    color: #18243d;
-  }
-  .green {
-    color: #014237;
-  }
-  .purple {
-    color: #700a70;
-  }
-  
+.blue {
+  color: #18243d;
+}
+.green {
+  color: #014237;
+}
+.purple {
+  color: #700a70;
+}
+
 .title {
   text-align: center;
-  font: normal  var(--mulish);
+  font: normal var(--mulish);
   font-size: 2rem;
 }
 .first-text {
@@ -160,11 +178,21 @@ h1 {
   align-items: center;
   margin: 2px;
 }
-@media (max-width: 716px) {
-  .first-text{
-    font-size: 1.5rem;
-    text-align:center ;
+
+.about-text {
+  display: block;
+  text-align: center;
+  font-weight: 800;
+  /* font-size: 19px;
+  line-height: 2rem;
+  padding: 0 10rem; */
 }
+@media (max-width: 716px) {
+
+  .first-text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
   .lang-icon {
     width: 33%;
     height: 50%;
@@ -180,7 +208,6 @@ h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-    
 
   .nav_list {
     display: flex;
@@ -189,10 +216,9 @@ h1 {
     text-align: center;
   }
   .nav_item:hover {
-   color: #5f45ea;
-   
+    color: #5f45ea;
   }
-  
+
   .show-menu {
     display: flex;
   }
