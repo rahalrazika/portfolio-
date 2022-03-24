@@ -6,7 +6,7 @@ navToggle.addEventListener('click', () => {
     })
 
     // Header 
-    const words = ["FULL-STACK", "BACK-END", "FRONT-END"],
+    const words = ["Full-Stack", "Back-end", "Front-end"],
     colors = ["blue", "green", "purple"],
   text = document.querySelector(".text");
 

@@ -108,8 +108,9 @@ nav {
   color: black;
   font-weight: 800;
   font-size: 3rem;
-  margin-bottom: 8%;
+  margin-bottom: 2%;
 }
+
 .project-color {
   color: var(--purple);
 }
@@ -138,6 +139,7 @@ footer .footer-area .footer-links h5 {
 
 .fa:hover {
   color: wheat;
+  transform: translateY(-2px);
 }
 
 h1 {
@@ -181,11 +183,57 @@ span.text {
 
 .about-text {
   display: block;
-  text-align: center;
   font-weight: 800;
+  line-height: 2rem;
   /* font-size: 19px;
   line-height: 2rem;
   padding: 0 10rem; */
+}
+.skills {
+  display: grid;
+  grid-gap: 16px;
+  padding: 16px;
+  max-width: 1024px;
+  margin-inline: auto;
+  grid-template-columns: repeat(3,1fr);
+}
+.set {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.set:hover {
+  box-shadow: 0px 12px 16px #5f45ea;
+}
+.set span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  font-size: 48px;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 35%;
+  margin-inline: auto;
+}
+.set h2 {
+ padding-block: 24px;
+ font-size: 24px;
+ color: var(--purple);
+ text-align: center;
+
+}
+.set .list {
+   display: grid;
+   padding-block: 8px;
+   grid-template-columns: 1fr 28px;
+   color: lightgray;
+   text-transform: capitalize;
+}
+.set:hover .list {
+  color: #212428;
 }
 @media (max-width: 716px) {
 
@@ -200,6 +248,7 @@ span.text {
   .nav_menu {
     display: none;
     width: 100%;
+
     flex-direction: column;
   }
   .nav-btn {
@@ -221,5 +270,11 @@ span.text {
 
   .show-menu {
     display: flex;
+  }
+  .skills {
+    grid-template-columns: 1fr;
+  }
+  .button {
+    margin: 2px;
   }
 }
