@@ -98,17 +98,17 @@ nav {
   background: var(--purple);
 }
 
-
 .portfolio-containte {
   background: white;
 }
 
 .project-title {
-  font: normal 600  var(--mulish);
+  font: normal 600 var(--mulish);
   color: black;
   font-weight: 800;
   font-size: 3rem;
   margin-bottom: 2%;
+  text-shadow: 7px -21px 2px #f4eff7;
 }
 
 .project-color {
@@ -195,7 +195,7 @@ span.text {
   padding: 16px;
   max-width: 1024px;
   margin-inline: auto;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .set {
   background-color: white;
@@ -219,23 +219,28 @@ span.text {
   margin-inline: auto;
 }
 .set h2 {
- padding-block: 24px;
- font-size: 24px;
- color: var(--purple);
- text-align: center;
-
+  padding-block: 24px;
+  font-size: 24px;
+  color: var(--purple);
+  text-align: center;
 }
 .set .list {
-   display: grid;
-   padding-block: 8px;
-   grid-template-columns: 1fr 28px;
-   color: lightgray;
-   text-transform: capitalize;
+  display: grid;
+  padding-block: 8px;
+  grid-template-columns: 1fr 28px;
+  color: lightgray;
+  text-transform: capitalize;
 }
 .set:hover .list {
   color: #212428;
 }
+.footer-logo {
+  width: 16rem;
+}
 @media (max-width: 716px) {
+  .project-title {
+    font-size: 2rem;
+  }
 
   .first-text {
     font-size: 1.5rem;
