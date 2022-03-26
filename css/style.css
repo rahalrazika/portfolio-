@@ -184,9 +184,6 @@ span.text {
   display: block;
   font-weight: 800;
   line-height: 2rem;
-  /* font-size: 19px;
-  line-height: 2rem;
-  padding: 0 10rem; */
 }
 .skills {
   display: grid;
